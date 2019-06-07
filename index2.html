@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Matthew Demo</title>
+
+  <style>
+  body {
+    padding: 0;
+  }
+
+  #iframe {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    border: 0;
+  }
+  </style>
+
+  <script>
+    (function(window, document, tag, url, name, wid, a, m) {
+      window[name] = window[name] || function() {
+        (window[name].q = window[name].q || []).push(arguments);
+        window[name].handler && window[name].handler(arguments);
+      },
+      window[name].l = 1 * new Date(),
+      window[name].wid = wid,
+      a = document.createElement(tag),
+      m = document.getElementsByTagName(tag)[0],
+      a.async = 1,
+      a.setAttribute("charset", "utf-8"),
+      a.src = url,
+      m.parentNode.insertBefore(a, m)
+    })(window, document, "script", "https://widget.dixa.io/assets/scripts/javascript/loader.js", "_dixa", "43cf3621-b9b1-40d8-ae4e-ecf7b2823ff4");
+  </script>
+</head>
+<body>
+  <iframe id="iframe" src="https://shop.bestseller.com/dk/da/home" />
+</body>
+</html>
